@@ -42,7 +42,7 @@ class TestStack:
       'tag_name': 'h1',
       'id': 'heading',
       'text_content': 'Title',
-      'children': []
+      'children': []   
     } )
 
     assert(tree.get_element_by_id('nope') == None)
